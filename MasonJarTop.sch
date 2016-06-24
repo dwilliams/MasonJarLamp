@@ -1,0 +1,287 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:MasonJarTop-cache
+EELAYER 25 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Diode_Bridge D1
+U 1 1 576C2DDD
+P 4100 2300
+F 0 "D1" H 4100 2350 50  0000 C CNN
+F 1 "Diode_Bridge" H 4100 2250 50  0000 C CNN
+F 2 "" H 4100 2300 60  0001 C CNN
+F 3 "" H 4100 2300 60  0000 C CNN
+F 4 "MB8SCT-ND" H 4100 2300 60  0001 C CNN "DigiKey"
+	1    4100 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D2
+U 1 1 576C2FA9
+P 7400 2800
+F 0 "D2" H 7400 2900 50  0000 C CNN
+F 1 "Warm White LED" H 7400 2700 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" H 7400 2800 60  0001 C CNN
+F 3 "" H 7400 2800 60  0000 C CNN
+F 4 "1416-1216-1-ND" H 7400 2800 60  0001 C CNN "DigiKey"
+	1    7400 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D3
+U 1 1 576C3263
+P 7400 3700
+F 0 "D3" H 7400 3800 50  0000 C CNN
+F 1 "Warm White LED" H 7400 3600 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" H 7400 3700 60  0001 C CNN
+F 3 "" H 7400 3700 60  0000 C CNN
+F 4 "1416-1216-1-ND" H 7400 3700 60  0001 C CNN "DigiKey"
+	1    7400 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D4
+U 1 1 576C32AA
+P 7400 4600
+F 0 "D4" H 7400 4700 50  0000 C CNN
+F 1 "Warm White LED" H 7400 4500 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" H 7400 4600 60  0001 C CNN
+F 3 "" H 7400 4600 60  0000 C CNN
+F 4 "1416-1216-1-ND" H 7400 4600 60  0001 C CNN "DigiKey"
+	1    7400 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X02 P1
+U 1 1 576C33A1
+P 2200 3850
+F 0 "P1" H 2200 4000 50  0000 C CNN
+F 1 "CONN_01X02" V 2300 3850 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_2x_1-2mmDrill" H 2200 3850 60  0001 C CNN
+F 3 "" H 2200 3850 60  0000 C CNN
+	1    2200 3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 P2
+U 1 1 576C3402
+P 2700 6250
+F 0 "P2" H 2700 6350 50  0000 C CNN
+F 1 "Loop Mounting Hole" V 2800 6250 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_2mmDrill" H 2700 6250 60  0001 C CNN
+F 3 "" H 2700 6250 60  0000 C CNN
+	1    2700 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 P3
+U 1 1 576C3493
+P 3550 6300
+F 0 "P3" H 3550 6400 50  0000 C CNN
+F 1 "Loop Mounting Hole" V 3650 6300 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_2mmDrill" H 3550 6300 60  0001 C CNN
+F 3 "" H 3550 6300 60  0000 C CNN
+	1    3550 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 576C34CD
+P 6250 2300
+F 0 "R1" V 6330 2300 50  0000 C CNN
+F 1 "20" V 6250 2300 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 6180 2300 30  0001 C CNN
+F 3 "" H 6250 2300 30  0000 C CNN
+F 4 "311-20ERCT-ND" V 6250 2300 60  0001 C CNN "DigiKey"
+	1    6250 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L CP C1
+U 1 1 576C359C
+P 5500 3350
+F 0 "C1" H 5525 3450 50  0000 L CNN
+F 1 "6u8" H 5525 3250 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeC_EIA-6032_HandSoldering" H 5538 3200 30  0001 C CNN
+F 3 "" H 5500 3350 60  0000 C CNN
+F 4 "732-8429-1-ND" H 5500 3350 60  0001 C CNN "DigiKey"
+	1    5500 3350
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3350 6300
+NoConn ~ 2500 6250
+Wire Wire Line
+	2400 3800 2600 3800
+Wire Wire Line
+	2600 3800 2600 1500
+Wire Wire Line
+	2600 1500 4100 1500
+Wire Wire Line
+	4100 1500 4100 1600
+Wire Wire Line
+	2400 3900 4900 3900
+Wire Wire Line
+	4100 3900 4100 3000
+Wire Wire Line
+	4800 2300 6100 2300
+Wire Wire Line
+	6400 2300 8000 2300
+Wire Wire Line
+	7400 2300 7400 2600
+Wire Wire Line
+	7400 3000 7400 3500
+Wire Wire Line
+	7400 3900 7400 4400
+Wire Wire Line
+	7400 4800 7400 5000
+Wire Wire Line
+	3300 5000 8000 5000
+Wire Wire Line
+	3300 2300 3400 2300
+Wire Wire Line
+	5500 3200 5500 2300
+Connection ~ 5500 2300
+Wire Wire Line
+	5500 3500 5500 5000
+Connection ~ 5500 5000
+$Comp
+L LED D5
+U 1 1 576D6D77
+P 8000 2800
+F 0 "D5" H 8000 2900 50  0000 C CNN
+F 1 "Warm White LED" H 8000 2700 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" H 8000 2800 60  0001 C CNN
+F 3 "" H 8000 2800 60  0000 C CNN
+F 4 "1416-1216-1-ND" H 8000 2800 60  0001 C CNN "DigiKey"
+	1    8000 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D6
+U 1 1 576D6DBF
+P 8000 3700
+F 0 "D6" H 8000 3800 50  0000 C CNN
+F 1 "Warm White LED" H 8000 3600 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" H 8000 3700 60  0001 C CNN
+F 3 "" H 8000 3700 60  0000 C CNN
+F 4 "1416-1216-1-ND" H 8000 3700 60  0001 C CNN "DigiKey"
+	1    8000 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D7
+U 1 1 576D6E06
+P 8000 4600
+F 0 "D7" H 8000 4700 50  0000 C CNN
+F 1 "Warm White LED" H 8000 4500 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" H 8000 4600 60  0001 C CNN
+F 3 "" H 8000 4600 60  0000 C CNN
+F 4 "1416-1216-1-ND" H 8000 4600 60  0001 C CNN "DigiKey"
+	1    8000 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8000 2300 8000 2600
+Connection ~ 7400 2300
+Wire Wire Line
+	8000 3000 8000 3500
+Wire Wire Line
+	7400 3300 8000 3300
+Connection ~ 8000 3300
+Connection ~ 7400 3300
+Wire Wire Line
+	8000 3900 8000 4400
+Wire Wire Line
+	8000 5000 8000 4800
+Connection ~ 7400 5000
+Wire Wire Line
+	7400 4200 8000 4200
+Connection ~ 8000 4200
+Connection ~ 7400 4200
+Wire Wire Line
+	3300 1100 3950 1100
+Wire Wire Line
+	4250 1100 4900 1100
+Wire Wire Line
+	4900 1100 4900 2300
+Connection ~ 4900 2300
+Wire Wire Line
+	3300 1100 3300 1500
+Connection ~ 3300 1500
+Wire Wire Line
+	3300 2300 3300 5000
+Wire Wire Line
+	3300 4500 3950 4500
+Connection ~ 3300 4500
+Wire Wire Line
+	4250 4500 4900 4500
+Wire Wire Line
+	4900 4500 4900 3900
+Connection ~ 4100 3900
+Text Notes 6300 7350 0    60   ~ 0
+BUILD OPTIONS:\n- No Stuff D1, C1 and Stuff JP1, JP2\n- No Stuff D5, D6, D7, JP1, JP2
+$Comp
+L R JP1
+U 1 1 576D7B6C
+P 4100 1100
+F 0 "JP1" V 4180 1100 50  0000 C CNN
+F 1 "0.0" V 4100 1100 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 4030 1100 30  0001 C CNN
+F 3 "" H 4100 1100 30  0000 C CNN
+F 4 "311-20ERCT-ND" V 4100 1100 60  0001 C CNN "DigiKey"
+	1    4100 1100
+	0    1    1    0   
+$EndComp
+$Comp
+L R JP2
+U 1 1 576D7BEA
+P 4100 4500
+F 0 "JP2" V 4180 4500 50  0000 C CNN
+F 1 "0.0" V 4100 4500 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 4030 4500 30  0001 C CNN
+F 3 "" H 4100 4500 30  0000 C CNN
+F 4 "311-20ERCT-ND" V 4100 4500 60  0001 C CNN "DigiKey"
+	1    4100 4500
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC
