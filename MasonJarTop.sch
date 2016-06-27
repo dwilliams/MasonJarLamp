@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:MasonJarTop-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -86,7 +85,7 @@ U 1 1 576C33A1
 P 2650 3650
 F 0 "P1" H 2650 3800 50  0000 C CNN
 F 1 "CONN_01X02" V 2750 3650 50  0000 C CNN
-F 2 "Wire_Pads:SolderWirePad_2x_1-2mmDrill" H 2650 3650 60  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 2650 3650 60  0001 C CNN
 F 3 "" H 2650 3650 60  0000 C CNN
 	1    2650 3650
 	-1   0    0    1   
